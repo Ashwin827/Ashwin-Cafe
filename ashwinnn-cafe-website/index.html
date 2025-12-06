@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashwinnn Cafe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">Ashwinnn Cafe</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div>
+        <h1>Welcome to Ashwinnn Cafe</h1>
+        <p>Fresh Nepali-inspired coffee, warm vibes, and delicious treats – every day.</p>
+        <a href="#menu" class="btn-primary">View Menu</a>
+      </div>
+      <div class="hero-image">
+        <!-- You can replace this with a real image -->
+        <div class="hero-image-placeholder">Add a photo of Ashwinnn Cafe here</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Favourites</h2>
+      <p class="section-subtitle">A sneak peek of what we serve at Ashwinnn Cafe.</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <h3>Masala Chai</h3>
+          <p>Traditional spiced tea brewed with milk and aromatic spices.</p>
+          <span class="price">$4.50</span>
+        </div>
+        <div class="menu-item">
+          <h3>Latte</h3>
+          <p>Smooth espresso with steamed milk and a light layer of foam.</p>
+          <span class="price">$4.80</span>
+        </div>
+        <div class="menu-item">
+          <h3>Mo:Mo Plate</h3>
+          <p>Steamed Nepali dumplings served with spicy tomato chutney.</p>
+          <span class="price">$14.90</span>
+        </div>
+        <div class="menu-item">
+          <h3>Breakfast Set</h3>
+          <p>Eggs, toast, hash browns and a side of seasonal salad.</p>
+          <span class="price">$18.00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section section-alt">
+    <div class="container about-container">
+      <div>
+        <h2 class="section-title">About Ashwinnn Cafe</h2>
+        <p>
+          Ashwinnn Cafe is a cosy spot bringing together Nepali flavours and Sydney cafe culture.
+          We focus on specialty coffee, fresh food, and a friendly atmosphere where everyone feels at home.
+        </p>
+        <p>
+          Whether you're starting your day with a takeaway coffee or catching up with friends in the evening,
+          Ashwinnn Cafe is here for you.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>Opening Hours</h3>
+        <ul>
+          <li>Mon – Fri: 7:00 AM – 10:00 PM</li>
+          <li>Sat – Sun: 8:00 AM – 10:00 PM</li>
+        </ul>
+
+        <h3>Location</h3>
+        <p>Kogarah, Sydney NSW</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact & Booking</h2>
+      <p class="section-subtitle">
+        Have a question or want to reserve a table at Ashwinnn Cafe? Send us a message.
+      </p>
+      <div class="contact-grid">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="ashwinmajhi827@gmail.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="How can we help?" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Contact Details</h3>
+          <p><strong>Phone:</strong> 0406228933</p>
+          <p><strong>Email:</strong> ashwinmajhi827@gmail.com</p>
+
+          <h3>Follow Us</h3>
+          <p>Instagram · Facebook · TikTok (links coming soon)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Ashwinnn Cafe. All rights reserved.</p>
+      <p>Made with ♥ in Sydney.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
